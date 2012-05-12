@@ -1,0 +1,48 @@
+%------------------------------------------------- Modélisation -------------------------------------------------%
+	
+	\part{Modélisation}
+	
+	\setcounter{chapter}{0} % Pour recommencer la numérotation des chapitres à 1
+	\setcounter{section}{0} % Pour recommencer la numérotation des section à 1
+	
+	\renewcommand*{\theHchapter}{\thepart.\thechapter}
+	\chapter{Introduction}
+	La phase de conception est la phase permettant de mettre en place les différentes étapes nécessaires à la réalisation de notre projet. Elle inclue des schémas et des diagrammes structurés représentant les étapes et les fonctionnalités de notre future application. La phase de conception est la dernière étape avant la programmation logicielle, elle doit donc être précise et fiable, dans le but de minimiser au maximum les risques d'erreurs d'implémentation. 
+	
+	La phase de conception s'appuie en grande partie sur ce qui a été mis en place dans le cahier des charges de la phase 1. Les différentes réunions avec les différents protagonistes du projet ont permis de fixer les objectifs prioritaires à concevoir en priorité. Dans notre projet, il s'agira donc de trouver un moyen efficace de transcrire la voix en texte, et de pouvoir exploiter cette transcription. Pour  cela, il sera nécessaire d'établir des connexions entre notre module et le serveur de la plate-forme Project2Cloud. Nous nous sommes pour cela initié au techniques de transcription vocale ( Speech-to-text ) au travers de modules libres existant.
+
+	 Dans ce compte rendu de phase de conception, nous présenterons le module développé sous différents aspects (diagrammes, partons de conception). Nous estimerons également la charge de travail prévue, via la méthode COCOMO. Cet méthode nous donnera des indications sur le volume de travail à fournir en fonction des choix techniques effectués avec les tuteurs enseignants et entreprise. 
+
+
+	\chapter{Principe général}
+	Notre module sera développé à part, et ne sera pas directement intégré dans la plate-forme P2C. Il devra cependant échanger des informations contenu sur le serveur de la plate-forme. Les vidéos enregistrées sur le serveur devront être traité par notre module, qui en proposera une transcription de type Speech-to-text. La transcription ainsi effectuée sera renvoyée au serveur. Idéalement, un système d'échange module-serveur pourrait être mis en place, permettant un dialogue continu entre les deux instances. Ceci permettrait de rendre le module auto-didacte et d'améliorer significativement la qualité de la transcription proposée. 
+
+		IMAGE DU PRINCIPE GENERALE
+
+	
+	
+	
+	\chapter{Transcription}
+	Le module va périodiquement interroger la base de donnée pour détecter les nouveaux fichiers son encodés disponibles. Lorsque tel est le cas, il lancera ce fichier pour le transcrire grâce à son modèle de reconnaissance. De plus, à chaque mot clé reconnu (mot clé entré pas l'utilisateur), il l'indexera dans un fichier XML. Dans ce dernier, seront associés un mot clés et une donnée temporelle, correspondant au moment où ce mot clé a été prononcé dans la vidéo.
+
+	A chaque fichier de transcription sera associé un numéro de version. Ainsi, lorsque le modèle de reconnaissance a suffisamment évolué, une nouvelle transcription sera faite.
+
+	Diagramme de classe de la transcription et du dialogue avec le serveur
+
+
+	
+	\chapter{Amélioration de modèle}
+	
+	
+	\chapter{test}
+	Notre application est composée de deux tests  :  transcription et mappage temporelle de la transcription
+
+	\section{tests unitaires}
+
+	\subsection{tests boite noire}
+	
+	
+	
+	
+	
+	

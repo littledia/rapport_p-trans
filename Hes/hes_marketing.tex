@@ -1,0 +1,73 @@
+\documentclass{article}
+
+%------------- Préambule --------------
+\usepackage[utf8]{inputenc}
+\usepackage[francais]{babel}
+\usepackage[T1]{fontenc}
+
+\usepackage{graphicx} % Pour les figure
+\graphicspath{{images/}} % Toutes les images se trouvent dans le dossier images
+\usepackage{float}
+\usepackage[T1]{tipa} % Pour la phonétique
+\usepackage[francais]{minitoc} % Pour les mini sommaires
+
+\usepackage{hyperref} % Pour les liens hypertext
+\hypersetup{colorlinks,%
+            citecolor=black,%
+            filecolor=black,%
+            linkcolor=black,%
+            urlcolor=blue}
+
+
+%------------- Corps --------------
+\begin{document}
+	
+	\include{part_rapport/page_de_garde}
+	
+	
+	\tableofcontents
+	
+	\vspace{2cm}
+		
+	\begin{itemize}
+		\item se situer sur une vue globale de l'application
+		\item présenter en début de rapport le contexte d'utilisation et les finalités de l'application :
+		\item activités concernées, profils des utilisateurs, fonctions
+		\item
+		\item étude de marché (demande, offre, environnement)
+		\item stratégie commerciale (positionnement, mix marketing ...)
+		\item Cette analyse doit permettre de formuler des propositions en matière de stratégie marketing et/ou des suggestions d'actions concrètes à mener pour un éventuel développement commercial de l'application.
+	\end{itemize}
+	
+	\newpage
+	
+	%---------------------------------------- Introduction ----------------------------------------%
+	\include{part_rapport/introduction}
+	
+	
+	%---------------------------------------- L'entreprise et le produit ----------------------------------------%
+	\include{part_rapport/entreprise_produit}
+	
+	
+	%---------------------------------------- Notre projet ----------------------------------------%
+	\include{part_rapport/projet}
+
+
+	%---------------------------------------- Analyse marketing ----------------------------------------%
+	\include{part_rapport/analyse_marketing}
+
+
+	%---------------------------------------- Conclusion ----------------------------------------%
+	\include{part_rapport/conclusion}
+
+
+ 
+
+	
+
+
+	
+	
+	
+	
+\end{document}

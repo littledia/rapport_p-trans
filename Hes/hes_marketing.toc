@@ -1,0 +1,6 @@
+\select@language {french}
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {section}{\numberline {2}Project2Cloud : l'entreprise et le produit}{3}{section.2}
+\contentsline {section}{\numberline {3}Notre projet : Transcriptions audio vers texte pour des r\IeC {\'e}unions enregistr\IeC {\'e}es}{4}{section.3}
+\contentsline {section}{\numberline {4}Analyse marketing notre projet}{5}{section.4}
+\contentsline {section}{\numberline {5}Conclusion}{6}{section.5}

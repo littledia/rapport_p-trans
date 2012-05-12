@@ -1,0 +1,20 @@
+{\reset@font\ptcCfont\mtc@string\contentsline{chapter}{\noexpand \leavevmode \numberline {1}Transcription automatique d'un fichier audio vers un fichier texte}{\reset@font\ptcCfont 29}{chapter.III.1}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.1}Principe de fonctionnement de la reconnaissance automatique de la parole}{\reset@font\ptcSfont 29}{section.III.1.1}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.2}Difficult\IeC {\'e}s de l'analyse de la parole}{\reset@font\ptcSfont 29}{section.III.1.2}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.1}D\IeC {\'e}compositions de la paroles en phon\IeC {\`e}mes}{\reset@font\ptcSSfont 30}{subsection.III.1.2.1}}
+{\reset@font\ptcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Qu'est ce qu'un phon\IeC {\`e}me ?}{\reset@font\ptcSSSfont 30}{section*.9}}
+{\reset@font\ptcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Caract\IeC {\'e}ristiques des phon\IeC {\`e}mes}{\reset@font\ptcSSSfont 30}{section*.10}}
+{\reset@font\ptcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode La coarticulation}{\reset@font\ptcSSSfont 31}{section*.11}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.2}Variabilit\IeC {\'e} de la parole}{\reset@font\ptcSSfont 31}{subsection.III.1.2.2}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.3}Variantes du probl\IeC {\`e}me de la reconnaissance de la parole}{\reset@font\ptcSfont 32}{section.III.1.3}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3.1}Locuteurs connu et inconnu}{\reset@font\ptcSSfont 32}{subsection.III.1.3.1}}
+{\reset@font\ptcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Locuteur connu}{\reset@font\ptcSSSfont 32}{section*.12}}
+{\reset@font\ptcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Locuteur inconnu}{\reset@font\ptcSSSfont 33}{section*.13}}
+{\reset@font\ptcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Analyse}{\reset@font\ptcSSSfont 33}{section*.14}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3.2}Vocabulaire connu et limit\IeC {\'e} ou vocabulaire large}{\reset@font\ptcSSfont 34}{subsection.III.1.3.2}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3.3}D\IeC {\'e}coupage temporel en locuteurs}{\reset@font\ptcSSfont 34}{subsection.III.1.3.3}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3.4}Qualit\IeC {\'e} acoustique de la composante parole}{\reset@font\ptcSSfont 35}{subsection.III.1.3.4}}
+{\reset@font\ptcCfont\mtc@string\contentsline{chapter}{\noexpand \leavevmode \numberline {2}Recherche d'information dans des documents parl\IeC {\'e}s}{\reset@font\ptcCfont 36}{chapter.III.2}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.1}Son int\IeC {\'e}r\IeC {\^e}t}{\reset@font\ptcSfont 36}{section.III.2.1}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.2}Sa difficult\IeC {\'e}}{\reset@font\ptcSfont 36}{section.III.2.2}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}Diff\IeC {\'e}rentes m\IeC {\'e}thodes}{\reset@font\ptcSfont 37}{section.III.2.3}}

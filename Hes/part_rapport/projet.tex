@@ -1,0 +1,11 @@
+%---------------------------------------- Notre projet ----------------------------------------%
+
+
+\section{Notre projet : Transcriptions audio vers texte pour des réunions enregistrées}
+	Notre projet s'implantera directement dans la plate-forme P2C. Comme nous l'avons expliqué précédemment, P2C permettra aux utilisateurs de communiquer facilement grâce à un panel complet d'échanges vidéo, audio ou texte. Le but de notre projet est de faciliter l'indexation des conférences vidéos, c'est à dire de mieux séquencer temporellement les vidéos enregistrées et ainsi aider la recherche de vidéo par mots clés. Pour cela, nous devrons ajouter une fonctionnalité supplémentaire : la transcription vocale des conversations. Concrètement, lors d'une conférence vidéo, les conversations des différents participants seront traduites en texte. Ce même texte sera enregistré sur le serveur de la plateforme. Le but est de permettre à un utilisateur de retrouver un mot ou un groupe de mot prononcé pendant une réunion, et de pouvoir visionner la vidéo de cette dernière à l'instant où le mot a été prononcé. On créé ainsi une "mémoire" des réunions, avec la possibilité de retrouver des informations très précises à des moments clés. 
+	
+	
+	Notre projet est donc de convertir les conversations en texte, d'enregistrer ces transcriptions, et de indexer ces conversations à partir de mots clés. L'indexation se fait dans un second fichier : lorsque le moteur de transcription reconnait un mot clé entré par l'utilisateur, il le met dans le fichier d'indexation avec une information sur le temps, c'est à dire lorsque le mot a été prononcé dans la réunion.
+	
+	
+	La difficulté du projet est que le projet P2C est destiné à des entreprises françaises (dans un premier temps). Il faut donc que le moteur de transcriptions fonctionne avec du français, or à ce jour il n'existe pas de moteur performant dans cette langue.

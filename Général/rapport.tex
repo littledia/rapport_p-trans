@@ -1,0 +1,120 @@
+\documentclass{report}
+
+%------------- Préambule --------------
+\usepackage[utf8]{inputenc}
+\usepackage[francais]{babel}
+\usepackage[T1]{fontenc}
+
+\usepackage{graphicx} % Pour les figure
+\graphicspath{{images/}} % Toutes les images se trouvent dans le dossier images
+\usepackage{float}
+\usepackage[T1]{tipa} % Pour la phonétique
+\usepackage[francais]{minitoc} % Pour les mini sommaires
+
+
+\setcounter{tocdepth}{-1}
+\setcounter{parttocdepth}{2}
+
+
+\usepackage[colorlinks=true]{hyperref} 
+\hypersetup{urlcolor=blue,linkcolor=black,citecolor=black,colorlinks=true}
+
+
+%------------- Corps --------------
+\begin{document}
+	\doparttoc % Pour les mini sommaires dans les parties
+	
+	
+	%------------------------------------------------- Page de garde -------------------------------------------------%
+	\include{part_rapport/page_de_garde}	
+	
+	
+	
+	
+	%------------------------------------------------- Début du document -------------------------------------------------%
+	\tableofcontents
+	
+	
+	%---------------------------------------------------- I. Introduction ---------------------------------------------------%
+	
+	\include{part_rapport/introduction}
+	
+	
+	%------------------------------------------------- II. Contexte du projet ------------------------------------------------%
+	
+	\include{part_rapport/contexte_du_projet}
+	
+	
+	%------------------------------------------------- III. Cahier des charges ------------------------------------------------%
+	
+	\include{part_rapport/cahier_des_charges}
+	
+	
+	%------------------------------------------------- IV. BiBliographie -------------------------------------------------%
+	
+	\include{part_rapport/biblio}
+	
+	
+	%------------------------------------------------- V. Procédure de recette -------------------------------------------------%
+	
+	\include{part_rapport/procedure_de_recette}
+	
+	
+	%------------------------------------------ VI. Estimation des charges et planifications -------------------------------------%
+
+	\include{part_rapport/estimation_des_charges_et_planification}
+	
+	
+	%----------------------------------------------------- VII. Modélisation -----------------------------------------------------%
+
+	\include{part_rapport/modelisation}
+	
+	
+	%----------------------------------------------------- VIII. Réalisation -----------------------------------------------------%
+
+	\include{part_rapport/realisation}
+	
+	
+	%----------------------------------------------------- IX. Tests -----------------------------------------------------%
+
+	\include{part_rapport/tests}
+	
+	
+	%----------------------------------------------------- X. Manuel d'utilisation -----------------------------------------------------%
+
+	\include{part_rapport/manuel_utilisation}
+	
+	
+	%----------------------------------------------------- XI. Dossier de dépoiement -----------------------------------------------------%
+
+	\include{part_rapport/dossier_deploiement}
+	
+	
+	%----------------------------------------------------- XII. PV de recette -----------------------------------------------------%
+
+	\include{part_rapport/pv_recette}
+	
+	
+	%----------------------------------------------------- XIII. Dimension commerciale -----------------------------------------------------%
+
+	%\include{part_rapport/dimension_commerciale}%
+	
+	
+	%----------------------------------------------------- XIV. Conclusion -----------------------------------------------------%
+
+	\include{part_rapport/conclusion}
+	
+	
+	%--------------------------------------------------------- XV. Références ------------------------------------------------------%
+	
+	\addstarredpart{Références}
+	\addstarredchapter{Bibliographie}
+	\bibliographystyle{unsrt} % style de la biblio : comment on souhaite que les références s'affichent
+	\bibliography{references} % nom de fichier des référénces : references.bib
+	-
+	
+	
+	
+	
+	
+\end{document}

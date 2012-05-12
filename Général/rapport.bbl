@@ -1,0 +1,43 @@
+\begin{thebibliography}{1}
+
+\bibitem{invited-paper}
+Douglas O'Shaughnessy.
+\newblock Invited paper: Automatic speech recognition: History, methods and
+  challenges.
+\newblock {\em Pattern Recognition}, 2008.
+
+\bibitem{speech-variability}
+M.~Benzeghiba, R.~De Mori, O.~Deroo, S.~Dupont, T.~Erbes, D.~Jouvet,
+  L.~Fissore, P.~Laface, A.~Mertins, C.~Ris, R.~Rose, V.~Tyagi, and
+  C.~Wellekens.
+\newblock Automatic speech recognition and speech variability: A review.
+\newblock {\em Speech Communication}, 2007.
+
+\bibitem{read-spontaneous}
+Masanobu Nakamura, Koji Iwano, and Sadaoki Furui.
+\newblock Differences between acoustic characteristics of spontaneous and read
+  speech and their effects on speech recognition performance.
+\newblock {\em Computer Speech and Language}, 2007.
+
+\bibitem{retrieval-browsing-spoken-content}
+Ciprian Chelba, Timothy~J. Hazen, and Murat Sara{\c c}lar.
+\newblock Retrieval and browsing of spoken content.
+\newblock {\em Signal Processing}, 2007.
+
+\bibitem{noisy-speech-recognition}
+Yifan Gong.
+\newblock Speech recognition in noisy environments: A survey.
+\newblock {\em Speech Communication}, 1994.
+
+\bibitem{introduction-hmm}
+Lawrence~R. Rabiner and B.~H. luang.
+\newblock An introduction to hidden markov models.
+\newblock {\em IEEE ASSP Magazine}, 1986.
+
+\bibitem{tutorial-hmm}
+Lawrence~R. Rabiner.
+\newblock A tutorial on hidden markov models and selected applications in
+  speech recognition.
+\newblock {\em Proceedings of the IEEE}, 1989.
+
+\end{thebibliography}
